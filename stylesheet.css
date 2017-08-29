@@ -1,3 +1,91 @@
-h1 {
-  color: red;
+html {
+  width: 70%;
+  margin: auto;
 }
+
+#header {
+  text-align: center;
+  padding: 70px 0;
+  border-bottom: 1px solid black;
+}
+
+#logo {
+  width: 300px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+#nav ul {
+  font-size: 40px;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
+
+#nav li {
+  line-height: 40px;
+  height: 40px;
+  display: inline-block;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+#nav a {
+  text-decoration: none;
+  display: block;
+  color: #228B22;
+}
+
+div#body div.row {
+  padding: 50px 0;
+}
+
+.col-md-4 {
+  font-size:60px;
+}
+
+.col-md-8 {
+  font-size:26px;
+}
+
+div#footer {
+  padding-left:10px;
+  border-top: 5px solid black;
+  border-bottom:1px solid black;
+}
+
+div#footer img {
+  width:100%;
+  height:200px;
+  margin-bottom:20px;
+}
+
+div#signature {
+  padding-top:20px;
+}
+
+#one {
+  color:#009900;
+}
+
+#two {
+  color:#009933;
+}
+
+#three {
+  color:#009966;
+}
+
+#four {
+  color:#009999;
+}
+
+#five {
+  color:#0099CC;
+}
+
+
+
+
