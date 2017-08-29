@@ -13,14 +13,16 @@ $(document).ready(
 $(document).ready(
   function() {
     console.log("ready");
-    $("img").hover(
+    var image_before
+    $("div#footer img").hover(
       function() {
+        image_before = $(this).attr("src");
         console.log("enter");
-        this.src = "http://beerhold.it/225/225"
+        this.src = "http://beerhold.it/225/225";
       },
       function() {
         console.log("leave");
-        this.src = "http://beerhold.it/225/290"
+        this.src = image_before;
       }
     );
   }
